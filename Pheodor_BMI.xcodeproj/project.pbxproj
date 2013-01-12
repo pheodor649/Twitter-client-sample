@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DD0570F16A192DC000532EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD0570E16A192DC000532EA /* UIKit.framework */; };
+		0DD0571116A192DC000532EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD0571016A192DC000532EA /* Foundation.framework */; };
+		0DD0571316A192DC000532EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD0571216A192DC000532EA /* CoreGraphics.framework */; };
+		0DD0571916A192DC000532EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DD0571716A192DC000532EA /* InfoPlist.strings */; };
+		0DD0571B16A192DC000532EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD0571A16A192DC000532EA /* main.m */; };
+		0DD0571F16A192DC000532EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD0571E16A192DC000532EA /* AppDelegate.m */; };
+		0DD0572116A192DC000532EA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD0572016A192DC000532EA /* Default.png */; };
+		0DD0572316A192DC000532EA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD0572216A192DC000532EA /* Default@2x.png */; };
+		0DD0572516A192DC000532EA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD0572416A192DC000532EA /* Default-568h@2x.png */; };
+		0DD0572816A192DC000532EA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD0572616A192DC000532EA /* MainStoryboard.storyboard */; };
+		0DD0572B16A192DC000532EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD0572A16A192DC000532EA /* ViewController.m */; };
+		0DD0573316A192DC000532EA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD0573216A192DC000532EA /* SenTestingKit.framework */; };
+		0DD0573416A192DC000532EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD0570E16A192DC000532EA /* UIKit.framework */; };
+		0DD0573516A192DC000532EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD0571016A192DC000532EA /* Foundation.framework */; };
+		0DD0573D16A192DC000532EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DD0573B16A192DC000532EA /* InfoPlist.strings */; };
+		0DD0574016A192DC000532EA /* Pheodor_BMITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD0573F16A192DC000532EA /* Pheodor_BMITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DD0573616A192DC000532EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DD0570116A192DC000532EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DD0570916A192DC000532EA;
+			remoteInfo = Pheodor_BMI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DD0570A16A192DC000532EA /* Pheodor_BMI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pheodor_BMI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD0570E16A192DC000532EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0DD0571016A192DC000532EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0DD0571216A192DC000532EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0DD0571616A192DC000532EA /* Pheodor_BMI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pheodor_BMI-Info.plist"; sourceTree = "<group>"; };
+		0DD0571816A192DC000532EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0DD0571A16A192DC000532EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DD0571C16A192DC000532EA /* Pheodor_BMI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pheodor_BMI-Prefix.pch"; sourceTree = "<group>"; };
+		0DD0571D16A192DC000532EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0DD0571E16A192DC000532EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0DD0572016A192DC000532EA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0DD0572216A192DC000532EA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0DD0572416A192DC000532EA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0DD0572716A192DC000532EA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0DD0572916A192DC000532EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0DD0572A16A192DC000532EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0DD0573116A192DC000532EA /* Pheodor_BMITests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pheodor_BMITests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD0573216A192DC000532EA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0DD0573A16A192DC000532EA /* Pheodor_BMITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pheodor_BMITests-Info.plist"; sourceTree = "<group>"; };
+		0DD0573C16A192DC000532EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0DD0573E16A192DC000532EA /* Pheodor_BMITests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pheodor_BMITests.h; sourceTree = "<group>"; };
+		0DD0573F16A192DC000532EA /* Pheodor_BMITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pheodor_BMITests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DD0570716A192DC000532EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD0570F16A192DC000532EA /* UIKit.framework in Frameworks */,
+				0DD0571116A192DC000532EA /* Foundation.framework in Frameworks */,
+				0DD0571316A192DC000532EA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD0572D16A192DC000532EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD0573316A192DC000532EA /* SenTestingKit.framework in Frameworks */,
+				0DD0573416A192DC000532EA /* UIKit.framework in Frameworks */,
+				0DD0573516A192DC000532EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DD056FF16A192DC000532EA = {
+			isa = PBXGroup;
+			children = (
+				0DD0571416A192DC000532EA /* Pheodor_BMI */,
+				0DD0573816A192DC000532EA /* Pheodor_BMITests */,
+				0DD0570D16A192DC000532EA /* Frameworks */,
+				0DD0570B16A192DC000532EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DD0570B16A192DC000532EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DD0570A16A192DC000532EA /* Pheodor_BMI.app */,
+				0DD0573116A192DC000532EA /* Pheodor_BMITests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DD0570D16A192DC000532EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DD0570E16A192DC000532EA /* UIKit.framework */,
+				0DD0571016A192DC000532EA /* Foundation.framework */,
+				0DD0571216A192DC000532EA /* CoreGraphics.framework */,
+				0DD0573216A192DC000532EA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DD0571416A192DC000532EA /* Pheodor_BMI */ = {
+			isa = PBXGroup;
+			children = (
+				0DD0571D16A192DC000532EA /* AppDelegate.h */,
+				0DD0571E16A192DC000532EA /* AppDelegate.m */,
+				0DD0572616A192DC000532EA /* MainStoryboard.storyboard */,
+				0DD0572916A192DC000532EA /* ViewController.h */,
+				0DD0572A16A192DC000532EA /* ViewController.m */,
+				0DD0571516A192DC000532EA /* Supporting Files */,
+			);
+			path = Pheodor_BMI;
+			sourceTree = "<group>";
+		};
+		0DD0571516A192DC000532EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DD0571616A192DC000532EA /* Pheodor_BMI-Info.plist */,
+				0DD0571716A192DC000532EA /* InfoPlist.strings */,
+				0DD0571A16A192DC000532EA /* main.m */,
+				0DD0571C16A192DC000532EA /* Pheodor_BMI-Prefix.pch */,
+				0DD0572016A192DC000532EA /* Default.png */,
+				0DD0572216A192DC000532EA /* Default@2x.png */,
+				0DD0572416A192DC000532EA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DD0573816A192DC000532EA /* Pheodor_BMITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DD0573E16A192DC000532EA /* Pheodor_BMITests.h */,
+				0DD0573F16A192DC000532EA /* Pheodor_BMITests.m */,
+				0DD0573916A192DC000532EA /* Supporting Files */,
+			);
+			path = Pheodor_BMITests;
+			sourceTree = "<group>";
+		};
+		0DD0573916A192DC000532EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DD0573A16A192DC000532EA /* Pheodor_BMITests-Info.plist */,
+				0DD0573B16A192DC000532EA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DD0570916A192DC000532EA /* Pheodor_BMI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD0574316A192DC000532EA /* Build configuration list for PBXNativeTarget "Pheodor_BMI" */;
+			buildPhases = (
+				0DD0570616A192DC000532EA /* Sources */,
+				0DD0570716A192DC000532EA /* Frameworks */,
+				0DD0570816A192DC000532EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pheodor_BMI;
+			productName = Pheodor_BMI;
+			productReference = 0DD0570A16A192DC000532EA /* Pheodor_BMI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DD0573016A192DC000532EA /* Pheodor_BMITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD0574616A192DC000532EA /* Build configuration list for PBXNativeTarget "Pheodor_BMITests" */;
+			buildPhases = (
+				0DD0572C16A192DC000532EA /* Sources */,
+				0DD0572D16A192DC000532EA /* Frameworks */,
+				0DD0572E16A192DC000532EA /* Resources */,
+				0DD0572F16A192DC000532EA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DD0573716A192DC000532EA /* PBXTargetDependency */,
+			);
+			name = Pheodor_BMITests;
+			productName = Pheodor_BMITests;
+			productReference = 0DD0573116A192DC000532EA /* Pheodor_BMITests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DD0570116A192DC000532EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Pheodor.jp;
+			};
+			buildConfigurationList = 0DD0570416A192DC000532EA /* Build configuration list for PBXProject "Pheodor_BMI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0DD056FF16A192DC000532EA;
+			productRefGroup = 0DD0570B16A192DC000532EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DD0570916A192DC000532EA /* Pheodor_BMI */,
+				0DD0573016A192DC000532EA /* Pheodor_BMITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DD0570816A192DC000532EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD0571916A192DC000532EA /* InfoPlist.strings in Resources */,
+				0DD0572116A192DC000532EA /* Default.png in Resources */,
+				0DD0572316A192DC000532EA /* Default@2x.png in Resources */,
+				0DD0572516A192DC000532EA /* Default-568h@2x.png in Resources */,
+				0DD0572816A192DC000532EA /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD0572E16A192DC000532EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD0573D16A192DC000532EA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DD0572F16A192DC000532EA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DD0570616A192DC000532EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD0571B16A192DC000532EA /* main.m in Sources */,
+				0DD0571F16A192DC000532EA /* AppDelegate.m in Sources */,
+				0DD0572B16A192DC000532EA /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD0572C16A192DC000532EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD0574016A192DC000532EA /* Pheodor_BMITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DD0573716A192DC000532EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DD0570916A192DC000532EA /* Pheodor_BMI */;
+			targetProxy = 0DD0573616A192DC000532EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DD0571716A192DC000532EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DD0571816A192DC000532EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0DD0572616A192DC000532EA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DD0572716A192DC000532EA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		0DD0573B16A192DC000532EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DD0573C16A192DC000532EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DD0574116A192DC000532EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0DD0574216A192DC000532EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DD0574416A192DC000532EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pheodor_BMI/Pheodor_BMI-Prefix.pch";
+				INFOPLIST_FILE = "Pheodor_BMI/Pheodor_BMI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0DD0574516A192DC000532EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pheodor_BMI/Pheodor_BMI-Prefix.pch";
+				INFOPLIST_FILE = "Pheodor_BMI/Pheodor_BMI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0DD0574716A192DC000532EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pheodor_BMI.app/Pheodor_BMI";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pheodor_BMI/Pheodor_BMI-Prefix.pch";
+				INFOPLIST_FILE = "Pheodor_BMITests/Pheodor_BMITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0DD0574816A192DC000532EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pheodor_BMI.app/Pheodor_BMI";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pheodor_BMI/Pheodor_BMI-Prefix.pch";
+				INFOPLIST_FILE = "Pheodor_BMITests/Pheodor_BMITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DD0570416A192DC000532EA /* Build configuration list for PBXProject "Pheodor_BMI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD0574116A192DC000532EA /* Debug */,
+				0DD0574216A192DC000532EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DD0574316A192DC000532EA /* Build configuration list for PBXNativeTarget "Pheodor_BMI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD0574416A192DC000532EA /* Debug */,
+				0DD0574516A192DC000532EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0DD0574616A192DC000532EA /* Build configuration list for PBXNativeTarget "Pheodor_BMITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD0574716A192DC000532EA /* Debug */,
+				0DD0574816A192DC000532EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DD0570116A192DC000532EA /* Project object */;
+}
